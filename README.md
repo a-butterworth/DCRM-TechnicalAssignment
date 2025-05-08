@@ -24,7 +24,13 @@ This solution was built as part of a technical assignment to demonstrate my abil
 
 ### Assistant Table
 - Related to Account using lookup field  
-- Fields: Name, Email, Phone Number  
+- Fields: Name, Email, Phone Number
+
+  ### Currency Table
+- Created a separate Currency table and related it to the TA_Account table via a lookup field
+- Allows dynamic management of currencies without needing to modify the form or choice fields
+- Supports adding, editing, or removing currencies directly from the data layer
+- Enables future enhancements like exchange rate integration or reporting by currency
 
 ### Flows
 - Sort Code & Account Number Generator  
