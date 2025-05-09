@@ -27,7 +27,7 @@ This solution was built as part of a technical assignment to demonstrate my abil
 - Fields: Name, Email, Phone Number
 
   ### Currency Table
-- Created a separate Currency table and related it to the TA_Account table via a lookup field
+- Created a separate Currency table and related it to the Account table via a lookup field
 - Allows dynamic management of currencies without needing to modify the form or choice fields
 - Supports adding, editing, or removing currencies directly from the data layer
 - Enables future enhancements like exchange rate integration or reporting by currency
@@ -52,7 +52,7 @@ This solution was built as part of a technical assignment to demonstrate my abil
 - Used Power Automate expressions like:  
   - `concat(string(rand(10,99)), '-', string(rand(10,99)), '-', string(rand(10,99)))` for Sort Code  
   - `string(rand(10000000, 99999999))` for Account Number  
-- Built logic to prevent saving accounts with duplicate email, name, or address using exact-match rules  
+- Built logic to prevent saving accounts with duplicate email, name, or address using exact-match rules and first 5 and last matching characters for name.  
 - Used Set Variable and Compose with dynamic content to build expressions  
 - Carefully handled Do Until loop structure and error handling (e.g., match checks, circular dependency avoidance)  
 
@@ -70,9 +70,7 @@ This solution was built as part of a technical assignment to demonstrate my abil
 ---
 
 ## Notes / Trade-offs
-
-- The brief mentioned “similar” matches; Dataverse only supports exact or prefix/ending matches via built-in rules. I implemented exact match rules for Name, Email, and Address to meet the intention of the brief.  
-- No popup is shown when duplicates are blocked — the record just cannot be saved. This aligns with the requirement: "CRM will not allow creation of a new account with the same details."  
+ 
 - Did not implement optional bonus features like postcode API or CI/CD deployment due to time focus on core completion.  
 
 ---
