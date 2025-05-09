@@ -77,7 +77,7 @@ This solution was built as part of a technical assignment to demonstrate my abil
 
 ## Deployment
 
-All customizations were done in a Power Platform development environment. This repo includes:
+All customisations were done in a Power Platform development environment. This repo includes:
 - `/screenshots/` folder  
 - This `README.md`  
 
