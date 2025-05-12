@@ -90,5 +90,14 @@ All customisations were done in a Power Platform development environment. This r
 - Email notification via Power Automate  
 - Relevance Search and highlighting potential duplicates before save  
 
----
+## Walkthrough Videos
+
+- [Creating a New Account](https://www.youtube.com/watch?v=kNR3rHUDQy0&list=PLKWLVnFWgIgUBbsVQAwB3cBGFj_xbAxzm&index=2)
+- [Duplicate Prevention Demo](https://www.youtube.com/watch?v=6_L72PbsXNU&list=PLKWLVnFWgIgUBbsVQAwB3cBGFj_xbAxzm&index=4)
+- [Search Functionality](https://www.youtube.com/watch?v=GK8nsP3k0NU&list=PLKWLVnFWgIgUBbsVQAwB3cBGFj_xbAxzm&index=3)
+- [Validation & Safeguards](https://www.youtube.com/watch?v=4tS2uf3afGY&list=PLKWLVnFWgIgUBbsVQAwB3cBGFj_xbAxzm&index=1)
+
+▶️ Or watch the full playlist:  
+[PLaylist](https://www.youtube.com/watch?v=4tS2uf3afGY&list=PLKWLVnFWgIgUBbsVQAwB3cBGFj_xbAxzm)
+
 
