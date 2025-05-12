@@ -98,6 +98,6 @@ All customisations were done in a Power Platform development environment. This r
 - [Validation & Safeguards](https://www.youtube.com/watch?v=4tS2uf3afGY&list=PLKWLVnFWgIgUBbsVQAwB3cBGFj_xbAxzm&index=1)
 
 ▶️ Or watch the full playlist:  
-[PLaylist](https://www.youtube.com/watch?v=4tS2uf3afGY&list=PLKWLVnFWgIgUBbsVQAwB3cBGFj_xbAxzm)
+[Playlist](https://www.youtube.com/watch?v=4tS2uf3afGY&list=PLKWLVnFWgIgUBbsVQAwB3cBGFj_xbAxzm)
 
 
